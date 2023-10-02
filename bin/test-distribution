@@ -1,8 +1,7 @@
 #!/usr/bin/env raku
 
-# note: this is under git version control in https://github.com/tbrowder/SysAdmin/dev
+# note: this is under git version control in https://github.com/tbrowder/MyFoo
 
-use lib <./lib>;
 use MyFoo;
 
 say "== Author";
@@ -11,14 +10,13 @@ say();
 
 say "== Version:";
 get-ver;
-get-ver1;
 say();
 
 say "== Api:";
 get-api;
 
 
-say "== Current docs:";
+say "== As shown in current docs:";
 module-source;
 say();
 
