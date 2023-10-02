@@ -1,0 +1,26 @@
+{
+  "auth": "zef:tbrowder",
+  "authors": [
+    "Tom Browder"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "Provides Raku tools to help Linux system administrators manage common user account tasks",
+  "license": "Artistic-2.0",
+  "name": "MyFoo",
+  "perl": "6.d",
+  "provides": {
+    "MyFoo": "lib/MyFoo.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "",
+  "tags": [
+  ],
+  "test-depends": [
+  ],
+  "ver": "0.0.1",
+  "version": "0.0.1"
+}

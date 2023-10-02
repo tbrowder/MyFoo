@@ -1,0 +1,33 @@
+#!/usr/bin/env raku
+
+# note: this is under git version control in https://github.com/tbrowder/SysAdmin/dev
+
+use lib <./lib>;
+use MyFoo;
+
+say "== Author";
+get-auth;
+say();
+
+say "== Version:";
+get-ver;
+get-ver1;
+say();
+
+say "== Api:";
+get-api;
+
+
+say "== Current docs:";
+module-source;
+say();
+
+say "== New Example (first line):";
+module-source1;
+say();
+
+=finish
+module-source2;
+module-source3;
+
+
